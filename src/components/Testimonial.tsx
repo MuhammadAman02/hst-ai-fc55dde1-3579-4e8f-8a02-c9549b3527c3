@@ -2,7 +2,7 @@ import React from 'react';
 
 const Testimonial: React.FC = () => {
   return (
-    <div className="py-16 bg-gradient">
+    <div className="py-16 bg-gradient-to-r from-purple-400 to-pink-500 dark:from-purple-900 dark:to-pink-800">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center text-white">
           <p className="text-2xl italic mb-4">
