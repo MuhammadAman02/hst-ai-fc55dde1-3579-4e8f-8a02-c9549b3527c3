@@ -1,16 +1,16 @@
 import React from 'react';
+import Hero from '../components/Hero';
+import Features from '../components/Features';
+import Testimonial from '../components/Testimonial';
+import Footer from '../components/Footer';
 
 const Index: React.FC = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient">
-      <div className="text-center animate-fade-in">
-        <h1 className="text-6xl font-bold text-custom-text mb-4">
-          Hello World
-        </h1>
-        <p className="text-xl text-custom-text opacity-75">
-          Welcome to your new React application
-        </p>
-      </div>
+    <div className="min-h-screen bg-lovable-dark">
+      <Hero />
+      <Features />
+      <Testimonial />
+      <Footer />
     </div>
   );
 };
