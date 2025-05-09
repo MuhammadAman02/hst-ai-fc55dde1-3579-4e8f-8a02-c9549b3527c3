@@ -2,3 +2,5 @@
 
 "create a lovable.dev clone"
 
+"add a theme toggle"
+
