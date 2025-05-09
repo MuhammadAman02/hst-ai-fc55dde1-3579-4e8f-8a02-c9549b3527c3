@@ -8,14 +8,14 @@ const Features: React.FC = () => {
   ];
 
   return (
-    <div className="py-16 bg-lovable-dark">
+    <div className="py-16 bg-gray-100 dark:bg-lovable-dark">
       <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-bold text-center text-white mb-12">Our Features</h2>
+        <h2 className="text-4xl font-bold text-center text-lovable-purple dark:text-white mb-12">Our Features</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {features.map((feature, index) => (
-            <div key={index} className="bg-gray-800 p-6 rounded-lg shadow-lg animate-slide-up" style={{animationDelay: `${index * 0.1}s`}}>
+            <div key={index} className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg animate-slide-up" style={{animationDelay: `${index * 0.1}s`}}>
               <h3 className="text-2xl font-semibold text-lovable-pink mb-4">{feature.title}</h3>
-              <p className="text-gray-300">{feature.description}</p>
+              <p className="text-gray-700 dark:text-gray-300">{feature.description}</p>
             </div>
           ))}
         </div>
