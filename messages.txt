@@ -1,2 +1,4 @@
 "SIMPLE HELLO WOLRD PAGE"
 
+"create a lovable.dev clone"
+
